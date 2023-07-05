@@ -21,7 +21,7 @@ Você também precisará ter um token de acesso pessoal (Personal Access Token) 
 
 ```bash
 $ git clone https://github.com/gersonborgesbatista/Azure-DevOps-Metrics.git
-$ cd azure-devops-metrics
+$ cd Azure-DevOps-Metrics
 ```
 2. Instale os pacotes Python necessários:
 
