@@ -26,8 +26,9 @@ $ cd Azure-DevOps-Metrics
 2. Instale os pacotes Python necessários:
 
 ```bash
-pip install azure-devops msrest
+$ pip install -r requirements.txt
 ```
+O arquivo `requirements.txt` contém a lista de pacotes necessários e suas versões correspondentes. Certifique-se de ter esse arquivo no diretório do repositório antes de instalar as dependências.
 
 3. Abra o arquivo `script.py` em um editor de texto e localize as seguintes linhas:
 
@@ -45,7 +46,7 @@ Substitua `'SEU_TOKEN_DE_ACESSO_PESSOAL'` pelo seu token de acesso pessoal do Az
 Para executar o projeto e coletar as métricas de linhas de código nos repositórios do Azure DevOps, execute o seguinte comando:
 
 ```bash
-python3 script.py
+$ python3 script.py
 ```
 
 Isso iniciará o script e coletará as métricas de linhas de código para os repositórios do Azure DevOps configurados. As métricas serão salvas em um arquivo CSV chamado `report_<timestamp>.csv`, onde `<timestamp>` é a data e hora da execução do script.
