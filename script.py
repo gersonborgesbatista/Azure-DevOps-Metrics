@@ -77,7 +77,7 @@ class AzureDevOpsMetrics:
 def main():
     # Definindo as credenciais de acesso ao azure devops
     personal_access_token = 'SEU_TOKEN_DE_ACESSO_PESSOAL'
-    organization_url = 'https://dev.azure.com/gersonborges'
+    organization_url = 'https://dev.azure.com/sua-organizacao'
 
     logger.info("Starting...")
 
